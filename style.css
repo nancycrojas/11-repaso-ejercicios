@@ -40,6 +40,22 @@ header nav ul li{
     padding: 30px;
 }
 
+header nav ul li:hover{      /*pseudoclases*/
+    color: red;
+}
+
+header nav ul li:active{     
+    color: blue;
+}
+
+header nav ul li::after{     /*pseudoelementos*/
+    content: " | ";
+}
+
+header nav ul li::before{
+    content: " | ";
+}
+
 /*main*/
 section{
     height: 100vh;
